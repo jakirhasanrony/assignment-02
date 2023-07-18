@@ -1,0 +1,99 @@
+/* Work Sans added */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* nav bar design starts here */
+.nav-container {
+    min-height: 130px;
+    background-color: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    display: flex;
+}
+
+.nav-logo-container {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-left img {
+    width: 86.041px;
+    height: 40px;
+    object-fit: cover;
+
+}
+
+.nav-left p {
+    text-align: center;
+    font-size: 2.81rem;
+    font-style: normal;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+#nav-g {
+    color: #FF42A5;
+}
+
+.nav-items {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: #3C354F;
+    text-align: center;
+    font-size: 1.13rem;
+    font-weight: 500;
+}
+
+.follow-us {
+    width: 262px;
+    height: 56px;
+    border-radius: 8px;
+    background-color: rgba(11, 2, 35, 0.10);
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* nav bar design ends here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
