@@ -71,6 +71,7 @@
         font-size: 1.2rem;
         padding: 10px;
     }
+
     .rogue-btn {
         font-size: 1.2rem;
         padding: 10px;
@@ -87,15 +88,36 @@
         padding: 0;
         margin: 0;
         margin-bottom: 15px;
-       
+
     }
 
     .banner-left-details p {
         padding-bottom: 0;
     }
+
     .banner-right img {
         width: 100%;
-        object-fit: cover; 
+        object-fit: cover;
     }
+
+    .online-funny-video {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+    }
+
+    .funny-img {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        object-fit: cover;
+        padding: 0;
+        margin: 0;
+    }
+    #p-1, #p-2, #p-3, #p-4{
+        margin: auto;
+    }
+    
 
 }
