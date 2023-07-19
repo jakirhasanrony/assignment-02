@@ -115,9 +115,73 @@
         padding: 0;
         margin: 0;
     }
-    #p-1, #p-2, #p-3, #p-4{
+
+    #p-1,
+    #p-2,
+    #p-3,
+    #p-4 {
         margin: auto;
     }
+
+    .play-instantly {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .right {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .left {
+
+        margin-top: 80px;
+        margin: 80px auto 0px;
+
+    }
+
+    .left-title {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .right img {
+        width: 80%;
+        margin: 0;
+        padding: 0;
+        margin-left: 50px;
+        object-fit: fill;
+        /* margin-left: 50px; */
+    }
+
+    .box-img {
+        width: 250px;
+        height: 250px;
+        object-fit: cover;
+        margin: 0;
+        padding: 0;
+        object-fit: cover;
+        border: 1px solid #FFF;
+        position: relative;
+        bottom: 200px;
+        right: 0px;
+    }
+
     
+
+    .games-types,
+    .games-types-details {
+        margin: 0;
+        padding: 0;
+    }
+
+
+
 
 }
