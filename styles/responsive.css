@@ -179,9 +179,28 @@
     .games-types-details {
         margin: 0;
         padding: 0;
+        width: 100%;
+    
     }
 
 
+    .footer-container{
+        margin-top: 170px;
+        flex-direction: column;
+    }
+    .footer-2{
 
+        flex-direction: column;
+    }
+    .footer-3{
+        flex-direction: column;
+
+    }
+    .footer-4 {
+        flex-direction: column;
+    }
+    .footer-5{
+        flex-direction: column;
+    }
 
 }
