@@ -110,7 +110,7 @@
     .funny-img {
         flex-direction: column;
         align-items: center;
-        width: 100%;
+        width:100%;
         object-fit: cover;
         padding: 0;
         margin: 0;
@@ -120,7 +120,7 @@
     #p-2,
     #p-3,
     #p-4 {
-        margin: auto;
+        margin: 0;
     }
 
     .play-instantly {
@@ -164,13 +164,16 @@
         width: 250px;
         height: 250px;
         object-fit: cover;
-        margin: 0;
+        margin:15px 0px;
         padding: 0;
         object-fit: cover;
         border: 1px solid #FFF;
         position: relative;
         bottom: 200px;
         right: 0px;
+    }
+    .box {
+       margin: 25px 0px;
     }
 
 
@@ -180,7 +183,20 @@
         margin: 0;
         padding: 0;
         width: 100%;
+        height: 100px;
 
+    }
+    .games-types > div{
+        width: 150px;
+        height: 60px;
+    }
+    .games-types > div > img{
+        width: 40px;
+        height: 40px;
+    }
+    .games-types > div > p{
+        font-size: 0.9rem;
+        margin: 5px;
     }
 
 
