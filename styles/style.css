@@ -14,6 +14,7 @@
     background-color: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     display: flex;
+    justify-content: center;
 }
 
 .nav-logo-container {
@@ -79,7 +80,7 @@
 /* nav bar design ends here */
 /* banner design start here */
 .banner-container {
-    height: 700px;
+    min-height: 700px;
     background-color: #FFF;
     display: flex;
 }
@@ -166,11 +167,12 @@
 /* online-funny-video section start here */
 
 .online-funny-video {
+    min-height: 700px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 120px;
-    margin-bottom: 100px;
+    margin-bottom: 130px;
 }
 
 .funny-video-title {
@@ -217,7 +219,7 @@
 
 .funny-img {
     display: flex;
-    gap: 20px;
+    gap: 24px;
 }
 
 #p-1,
@@ -273,15 +275,8 @@
 }
 
 .box:hover {
-    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); */
     box-shadow: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%)
 }
-
-
-
-
-
-
 
 
 /* online-funny-video section end here */
@@ -290,8 +285,8 @@
 
 
 .play-instantly {
-    margin-top: 120px;
-    min-height: 726px;
+    margin-top: 150px;
+    height: 726px;
     width: 68%;
     margin-left: 400px;
     margin-right: 240px;
@@ -327,6 +322,11 @@
     font-size: 1.125rem;
     font-weight: 400;
 }
+.right-play-instantly{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .right {
     margin-top: 120px;
@@ -336,11 +336,13 @@
 .right img {
     width: 634.833px;
     height: 650px;
+    border-radius: 8px;
+    object-fit: cover;
 }
 
 .box-img {
-    width: 300px;
-    height: 340px;
+    width: 318px;
+    height: 365px;
     background-image: url("../images/Rectangle\ 66.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -356,12 +358,18 @@
 
 /* games type start*/
 .games-types-details {
-    height: 427px;
-   
+    min-height: 427px;
+    margin: 0px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
 }
 
+
 .games-types {
-    height: 427px;
+    /* height: 427px; */
     display: flex;
     flex-wrap: wrap;
     align-content: center;
